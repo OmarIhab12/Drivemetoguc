@@ -16,5 +16,6 @@ $app->register(
         )
     )
 );
+echo "yes" ;
 
 ?>
