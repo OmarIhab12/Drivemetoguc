@@ -13,4 +13,5 @@ return array(
     'Symfony\\Component\\EventDispatcher\\' => array($vendorDir . '/symfony/event-dispatcher'),
     'Symfony\\Component\\Debug\\' => array($vendorDir . '/symfony/debug'),
     'Silex\\' => array($vendorDir . '/silex/silex/src/Silex'),
+    'Cowsayphp\\' => array($vendorDir . '/alrik11es/cowsayphp/src'),
 );

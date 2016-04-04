@@ -1,6 +1,7 @@
 {
     "name": "omari_000/drivemetoguc",
     "require": {
-        "herrera-io/silex-pdo": "^1.2"
+        "herrera-io/silex-pdo": "^1.2",
+        "alrik11es/cowsayphp": "^1.0"
     }
 }

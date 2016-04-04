@@ -4,9 +4,63 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "5a0e176f469abbf2253f3391ca738377",
-    "content-hash": "14b1f45da16961cf102deb722e088278",
+    "hash": "7a382376364a6099f64566c215191857",
+    "content-hash": "239e1bc754112a69c95f82f6717b1528",
     "packages": [
+        {
+            "name": "alrik11es/cowsayphp",
+            "version": "1.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/alrik11es/cowsayphp.git",
+                "reference": "8fad8b7bdcf3df2ca9bc46e30fb2c9e6f96248fc"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/alrik11es/cowsayphp/zipball/8fad8b7bdcf3df2ca9bc46e30fb2c9e6f96248fc",
+                "reference": "8fad8b7bdcf3df2ca9bc46e30fb2c9e6f96248fc",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.3.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "4.*",
+                "scrutinizer/ocular": "~1.1"
+            },
+            "bin": [
+                "bin/cowsayphp"
+            ],
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.0-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Cowsayphp\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Marcos Sigueros",
+                    "email": "alrik11es@gmail.com",
+                    "homepage": "https://github.com/alrik11es",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Cowsay port in PHP",
+            "homepage": "https://github.com/alrik11es/cowsayphp",
+            "keywords": [
+                "cowsay"
+            ],
+            "time": "2015-11-30 08:24:36"
+        },
         {
             "name": "herrera-io/pdo-log",
             "version": "1.0.0",
