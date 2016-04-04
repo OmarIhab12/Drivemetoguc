@@ -1,6 +1,7 @@
 <?php
 
 $response = array();
+echo "yes";
 
 if (isset($_POST['email'])){
 

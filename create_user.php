@@ -9,6 +9,7 @@ $response = array();
 // check for required fields
 if (isset($_POST['email']) && isset($_POST['name']) && isset($_POST['password']) && isset($_POST['verifypassword'])) {
  
+    echo "yes" ;
     $email = $_POST['email'];
     $name = $_POST['name'];
     $password = $_POST['password'];

@@ -1,4 +1,6 @@
 {
     "name": "omari_000/drivemetoguc",
-    "require": {}
+    "require": {
+        "herrera-io/silex-pdo": "^1.2"
+    }
 }
